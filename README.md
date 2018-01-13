@@ -9,8 +9,8 @@ Go through the beloe steps:
 4. SSH into ec2 instance
   ```ssh -i "mann_cloud_aws.pem" ec2-user@ec2-34-209-90-176.us-west-2.compute.amazonaws.com ```
 5. Set the repo get the files:
-  ``` sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
-  sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key ```
+  ``` sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo ```
+  ``` sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key   ```
   
 6. install the jenkins
   ``` sudo yum install jenkins ```
