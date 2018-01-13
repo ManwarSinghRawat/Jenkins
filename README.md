@@ -1,5 +1,6 @@
-# Jenkin
-How to work with Jenkins
+# Installation of Jenkins in AWS EC2
+
+> How to work with Jenkins
 
 Installation of Jenkins in AWS ?
 Go through the beloe steps:
